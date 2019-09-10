@@ -13,4 +13,4 @@ squareM = 10000
 
 ac = squareM * 0.000247105
 
-print str(squareM) + " squre meters is " + str(ac) + " acres"
+print str(squareM) + " sq. m = " + str(ac) + " Acres"

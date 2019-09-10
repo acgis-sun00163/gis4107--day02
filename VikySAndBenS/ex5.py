@@ -16,4 +16,4 @@ sqaureM = ac * 4046.86
 
 length = math.sqrt(sqaureM)
 
-print "The edge length of " + str(ac) + " acres is " + str(length) + " meters"
+print "Edge length of " + str(ac) + " acres square is " + str(length) + " metres "

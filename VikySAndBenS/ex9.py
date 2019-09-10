@@ -21,4 +21,4 @@ kml = mipergal/2.35215054
 price = km/kml*dollarL
 
 
-print str(km) +" km at " + str(mipergal) + " mi/gal and $ " + str (dollarL) + " per Litter will cost % .2f in total" % price
+print str(km) +" km at " + str(mipergal) + " mi/gal and $%.2f" % dollarL + " per L will cost $%.2f in total" % price

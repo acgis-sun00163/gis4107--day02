@@ -10,16 +10,18 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
-deg = 95.0
+deg = 95
 
-min = 25.0
+min = 25
 
-sec = 5.0
-
-
-decimaldeg = deg + min / 60 + sec/3600
+sec = 5
 
 
 
 
-print  str (deg) + ":" + str (min) + ":" + str (sec) +" = " + str (decimaldeg)
+decimaldeg = deg + min / 60.0 + sec/3600.0
+
+
+
+
+print  str (deg) + ":" + str (min) + ":" + str (sec) +" = " + "%.8f" % decimaldeg

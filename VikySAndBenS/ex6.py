@@ -15,6 +15,6 @@ squareM = 10000000
 
 squareKM = squareM/ 1000000
 
-BearN = BDens * squareKM
+BearN = float (BDens * squareKM)
 
-print "when bear density is " + str(BDens) + " bears / sq. km and the area is " + str(squareM) + " sq.m, the probable number of bears is  " + str (BearN)
+print "When bear density is " + str(BDens) + " bears / sq. km and the area is " + str(squareM) + " sq. m, the probably number of bears is  " + str (BearN)

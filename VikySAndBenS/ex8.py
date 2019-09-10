@@ -22,5 +22,5 @@ s = ((dd-deg) * 60 - m) * 60
 sec =  int (0.41865 * 3600)
 
 
-print  str(dd) + " = " + str (deg) + ":" + str (m) + ":" + "% .2f" % s
+print  str(dd) + " = " + str (deg) + ":" + str (m) + ":" + "%.2f" % s
 

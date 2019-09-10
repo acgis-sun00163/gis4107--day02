@@ -11,6 +11,6 @@
 
 miles = 10
 
-km = miles * 1.6093
+km = miles * 1.60934
 
-print str(miles) + " mi" + "=" + str(km) + "km"
+print str(miles) + " mi " + " = " + str(km) + " km"

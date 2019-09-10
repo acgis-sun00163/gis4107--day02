@@ -13,6 +13,5 @@ kmhr = 100
 
 ms = kmhr / 3.6
 
-ms = int (ms)
 
-print str(kmhr) +"km/hr is " + str(ms) +"m/s"
+print str(kmhr) +" km/hr = %.6f m/s." % ms

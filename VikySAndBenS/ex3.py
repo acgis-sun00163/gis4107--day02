@@ -13,4 +13,4 @@ squareM = 10000
 
 ha = squareM * 0.0001
 
-print str(squareM) + " square meters equals " + str(ha) + " hectares"
+print str(squareM) + " sq. m. = " + str(ha) + " Hectares"
